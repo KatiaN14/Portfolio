@@ -1,4 +1,4 @@
-export default function Navbar({ lang, setLang, t }: any) {
+export default function Navbar({ lang, setLang}: any) {
   return (
     <nav className="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-gray-100 px-6 py-4 flex justify-between items-center transition-all">
       <div className="hidden md:flex items-center gap-8 text-base font-medium text-gray-500">
