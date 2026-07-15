@@ -1,56 +1,20 @@
-# GMV Recruitment Application
+# Personal Portfolio | Ekaterina Nováková
 
-This repository contains the source code for my application for a position at GMV. The project is a web application developed using React, TypeScript, and Vite, with styling implemented via Tailwind CSS.
+A clean, responsive, and bilingual personal portfolio website. Built to showcase my projects, experience, and competencies as a Computer Engineering and Business student based in Madrid.
+
+**[Link to Live Demo]** *(Add website link here once deployed)*
+
+## Features
+
+*   **Bilingual (English & Spanish):** Custom internationalization (i18n) implementation.
+*   **Responsive Design:** Fully optimized for mobile, tablet, and desktop screens.
+*   **Dynamic Sections:** Includes Introduction, Experience, Projects (with image zoom modal), Competencies, and About me.
+*   **Rich Link Previews:** Configured with Open Graph metadata for professional sharing.
+*   **Quick Contact:** Integrated quick links to LinkedIn, Email, and a downloadable CV.
 
 ## Tech Stack
 
-* Framework: React
-* Language: TypeScript
-* Build Tool: Vite
-* Styling: Tailwind CSS
-* Linting: ESLint
-
-## Getting Started
-
-### Prerequisites
-
-Ensure Node.js is installed on your machine.
-
-### Installation
-
-1. Navigate to the project directory:
-```bash
-cd gmv-website
-
-```
-
-
-2. Install the project dependencies:
-```bash
-npm install
-
-```
-
-
-
-### Running the Application
-
-To start the development server, run:
-
-```bash
-npm run dev
-
-```
-
-Open your browser and navigate to the local address provided in the terminal (typically http://localhost:5173).
-
----
-
-## Project Structure
-
-* **/src**: Contains the core application source code, components, and logic.
-* **/public**: Contains static assets, including project imagery.
-* **vite.config.ts**: Configuration for the Vite build system.
-* **tsconfig.json**: TypeScript configuration settings.
-* **eslint.config.js**: Configuration for code quality and linting.
-* **package.json**: Project metadata and dependency management.
+*   **Framework:** React 18
+*   **Language:** TypeScript
+*   **Styling:** Tailwind CSS
+*   **Build Tool:** Vite
