@@ -1,7 +1,7 @@
 export default function Experience({ t }: any) {
   return (
     <section id="experience" className="max-w-4xl mx-auto px-6 py-16 border-t border-gray-100 scroll-mt-20">
-        <h2 className="text-3xl font-bold tracking-tight text-gmvRed mb-10">
+        <h2 className="text-3xl font-bold tracking-tight text-headings mb-10">
           {t.expTitle}
         </h2>
 
@@ -10,11 +10,11 @@ export default function Experience({ t }: any) {
           {/* AI Role */}
           <div className="relative">
             <div className="absolute -left-[33px] top-1.5 bg-white p-1 rounded-full">
-              <div className="w-3.5 h-3.5 bg-gmvRed rounded-full shadow-sm"></div>
+              <div className="w-3.5 h-3.5 bg-headings rounded-full shadow-sm"></div>
             </div>
             <div className="flex flex-col md:flex-row md:justify-between md:items-baseline mb-2">
               <h3 className="font-bold text-gray-950 text-lg md:text-xl">{t.expRole1}</h3>
-              <span className="text-xs font-bold text-gmvRed uppercase tracking-wider mt-1 md:mt-0 bg-gmvRed/5 px-2 py-1 rounded-md">{t.expDate1}</span>
+              <span className="text-xs font-bold text-headings uppercase tracking-wider mt-1 md:mt-0 bg-headings/5 px-2 py-1 rounded-md">{t.expDate1}</span>
             </div>
             <p className="text-sm md:text-base text-gray-600 leading-relaxed mt-2">
               {t.expDesc1}

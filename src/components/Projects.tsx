@@ -3,7 +3,7 @@ import {ZoomIn} from 'lucide-react';
 export default function Projects({ t, setZoomedImg }: { t: any, setZoomedImg: (img: string | null) => void }) {
   return (
     <section id="projects" className="max-w-4xl mx-auto px-6 py-16 border-t border-gray-100 scroll-mt-20">
-        <h2 className="text-3xl font-bold tracking-tight text-gmvRed mb-8">
+        <h2 className="text-3xl font-bold tracking-tight text-headings mb-8">
           {t.projectsTitle}
         </h2>
 
@@ -27,7 +27,7 @@ export default function Projects({ t, setZoomedImg }: { t: any, setZoomedImg: (i
                   {t.orthoDesc}
                 </p>
               </div>
-              <div className="mt-4 pt-3 border-t border-gray-50 text-[11px] font-bold text-gmvRed uppercase tracking-wider">
+              <div className="mt-4 pt-3 border-t border-gray-50 text-[11px] font-bold text-headings uppercase tracking-wider">
                 UX / UI Refactor
               </div>
             </div>
@@ -51,7 +51,7 @@ export default function Projects({ t, setZoomedImg }: { t: any, setZoomedImg: (i
                   {t.studyDesc}
                 </p>
               </div>
-              <div className="mt-4 pt-3 border-t border-gray-50 text-[11px] font-bold text-gmvRed uppercase tracking-wider">
+              <div className="mt-4 pt-3 border-t border-gray-50 text-[11px] font-bold text-headings uppercase tracking-wider">
                 Fullstack / Localization
               </div>
             </div>
@@ -75,7 +75,7 @@ export default function Projects({ t, setZoomedImg }: { t: any, setZoomedImg: (i
                   {t.girlsDesc}
                 </p>
               </div>
-              <div className="mt-4 pt-3 border-t border-gray-50 text-[11px] font-bold text-gmvRed uppercase tracking-wider">
+              <div className="mt-4 pt-3 border-t border-gray-50 text-[11px] font-bold text-headings uppercase tracking-wider">
                 Mentorship / WebApp
               </div>
             </div>

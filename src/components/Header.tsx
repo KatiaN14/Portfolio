@@ -15,7 +15,7 @@ export default function Header({ t }: any) {
           <span className="block mt-1">{t.headerSubtitle2}</span>
         </p>
 
-        <h2 className="text-sm md:text-base font-semibold tracking-widest text-gmvRed uppercase mb-10 mt-6 inline-block bg-gmvRed/10 px-4 py-1.5 rounded-full">
+        <h2 className="text-sm md:text-base font-semibold tracking-widest text-headings uppercase mb-10 mt-6 inline-block bg-headings/10 px-4 py-1.5 rounded-full">
           {t.title}
         </h2>
         
