@@ -21,6 +21,20 @@ export default function Experience({ t }: any) {
             </p>
           </div>
 
+          {/* AWS mentors summer program */}
+          <div className="relative">
+            <div className="absolute -left-[33px] top-1.5 bg-white p-1 rounded-full">
+              <div className="w-3.5 h-3.5 bg-gray-300 rounded-full shadow-sm"></div>
+            </div>
+            <div className="flex flex-col md:flex-row md:justify-between md:items-baseline mb-2">
+              <h3 className="font-bold text-gray-950 text-lg md:text-xl">{t.expRole4}</h3>
+              <span className="text-xs font-bold text-gray-500 uppercase tracking-wider mt-1 md:mt-0 bg-gray-100 px-2 py-1 rounded-md">{t.expDate4}</span>
+            </div>
+            <p className="text-sm md:text-base text-gray-600 leading-relaxed mt-2">
+              {t.expDesc4}
+            </p>
+          </div>
+
           {/* Teacher / Translator Role */}
           <div className="relative">
             <div className="absolute -left-[33px] top-1.5 bg-white p-1 rounded-full">

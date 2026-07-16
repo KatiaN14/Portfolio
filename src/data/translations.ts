@@ -42,7 +42,7 @@ export const translations = {
       "I have experience developing responsive web applications and websites, focusing on clean design, usability, and creating solutions adapted to real users' needs.",
 
     catBiz: "Business & Technology Strategy",
-    techBiz: "Business Administration, UX, Digital Transformation",
+    techBiz: "Business Administration, UX, Digital Transformatio, Cloud Computing (AWS)",
     descBiz:
       "My business studies allow me to understand technology from a broader perspective: not only how solutions work technically, but also how they support organizations and users.",
 
@@ -64,7 +64,11 @@ export const translations = {
     expDesc3:
       "Collaborated with multicultural teams in international volunteering projects, developing adaptability, teamwork, and communication skills.",
 
-    // Projects
+    expRole4: "AWS mentee",
+    expDate4: "Big Tech, Cloud Computing",
+    expDesc4: "Participated in AWS summer mentorship program, had lectures about cloud computing, AWS services and one-on-one calls with employees to talk about career and autonomous education in AWS Educate.",
+    
+      // Projects
     projectsTitle: "Selected Projects",
 
     orthoTitle: "Orthodontic Clinic Website Redesign",
@@ -142,7 +146,7 @@ export const translations = {
       "Tengo experiencia desarrollando páginas web y aplicaciones adaptables, prestando atención al diseño, la usabilidad y las necesidades reales de los usuarios.",
 
     catBiz: "Negocio y Estrategia Tecnológica",
-    techBiz: "ADE, UX, Transformación Digital",
+    techBiz: "ADE, UX, Transformación Digital, Cloud Computing (AWS)",
     descBiz:
       "Mi formación en ADE me permite analizar la tecnología desde una perspectiva más amplia: no solo cómo funciona, sino también cómo genera valor para usuarios y organizaciones.",
 
@@ -164,7 +168,12 @@ export const translations = {
     expDesc3:
       "He colaborado en proyectos internacionales de voluntariado, trabajando con equipos multiculturales y desarrollando capacidad de adaptación y comunicación.",
 
-    // Projects
+    expRole4: "Mentee de AWS",
+    expDate4: "Big Tech, Cloud Computing",
+    expDesc4:
+      "Participé en el programa de mentoría de verano de AWS, asistiendo a sesiones sobre computación en la nube, servicios de AWS y reuniones individuales con empleados para hablar sobre desarrollo profesional y aprendizaje autónomo dentro de AWS Educate.",
+    
+      // Projects
     projectsTitle: "Proyectos Seleccionados",
 
     orthoTitle: "Rediseño Web para Clínica de Ortodoncia",
